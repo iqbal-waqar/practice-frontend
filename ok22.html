@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Tutorial</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-gap: 2rem;
+    }
+    .item{
+        background-color: red;
+        border: 2px solid red;
+        margin: 3px;
+    }
+    li{
+        display: inline-block;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item"><input type="search" placeholder="Search Here"></div>
+        <div class="item"><ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>HELP</li>
+            <li>CONTACT US</li>
+        </ul></div>
+        <div class="item">THIS IS ITEM-3</div>
+        
+    </div>
+</body>
+<script>
+    // var num1 = 98;
+    // var num2 = 36;
+    // console.log("The sum is :"+ (num1+num2));
+    var name = "Waqar";
+    var Studying = "Comsats-university-sahiwal";
+    var course = "computer-science";
+    var temp = `My name is ${name} . I am currently studying at ${Studying} and from there i am doing bachelors in ${course}`;
+    // var len = name.lenght;
+    // console.log(`The lenght of name is ${len}`)    
+    console.log("Hellow world\n waqar qbal");               
+</script>
+</html>

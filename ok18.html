@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERIES</title>
+</head>
+<style>
+    .box{
+        font-size: 60px;
+        text-align: center;
+        background-color: red;
+        color: white;
+        display: none;
+    }
+    @media (max-width:300px){
+        #box-1{
+            display: block;
+            background-color: aqua;
+        }
+    }
+    @media (max-width:500px)and (min-width:300px){
+        #box-2{
+            display: block;
+        }
+    }
+
+</style>
+<body>
+    <div class="box" id="box-1">I am an iphone</div>
+    <div class="box" id="box-2">I am tablet bro</div>
+    <div class="box" id="box-3">I am laptop of hp</div>
+    <div class="box" id="box-4">I am a samsung mobile phone</div>
+</body>
+</html>

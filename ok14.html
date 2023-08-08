@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO SELECTORS</title>
+</head>
+<style>
+    body{
+        background-color: rgb(157, 157, 226);
+    }
+    .container {
+        background-color: aqua;
+        border-color: black;
+        border: 3px solid black;
+        width: 600px;
+        padding: 33px;
+        margin: 33px auto;
+        
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    /* Pseudo selectors */
+    a:hover{
+        background-color: rgb(211, 144, 44);
+        border: 2px solid black;
+    }
+    a:visited{
+        background-color: rgb(152, 194, 54);
+    }
+    a:active{
+        background-color: blueviolet;
+    }
+    .btn{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: rgb(224, 211, 211);
+        border: none;
+    }
+    .btn:hover{
+        background-color: aquamarine;
+        border: 2px solid black;
+    }
+    
+</style>
+<body>
+    <div class="container" id="con1">
+        <h2>WELCOME TO PSEUDO SELECTORS</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa sint ut, quis consequuntur excepturi sed eum ipsam vitae minus facilis in quo temporibus distinctio eligendi nemo consectetur? Debitis totam illo quaerat, dolorem, asperiores laboriosam reprehenderit vitae ipsa numquam facere provident!</p>
+        <a href="http://facebook.com " target="_blank" class="btn">Read More</a>
+        <button class="btn">Contact Us </button>
+    </div>
+    
+</body>
+</html>
